@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(33, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'DM Sans', sans-serif;;
+}
+
+.main-container{
+ padding: 1em;
+}
+
+.top-container, .bottom-container{
+    border-radius: 5px;
+    padding:1em;
+}
+
+.top-container{
+background-color: hsl(10, 79%, 65%);
+margin-bottom: 1em;
+}
+
+.bottom-container{
+background-color: white;
+
+}
